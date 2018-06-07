@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:CalendarSample="clrnamespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms "
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.MainPage"
+             BackgroundColor="Aqua">
+
+    <StackLayout BackgroundColor="Aqua" Padding="80" VerticalOptions="Center">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Serenity!" TextColor="Black" VerticalOptions ="CenterAndExpand"  HorizontalOptions="FillAndExpand"></Label>
+          
+        <Button Text="Click here for services" BackgroundColor ="Black" TextColor="AntiqueWhite" Clicked="ServiceButton_OnClicked"></Button>
+    </StackLayout>
+
+</ContentPage>

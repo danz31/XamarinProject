@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.DulaMainPage"
+             Title="DulaMainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Dula"
+                   TextColor="Black"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Description here"
+                   TextColor="Black"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"></Label>
+            <Button Text="See Availability"
+                    Clicked="NavigateToDulaCalander"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

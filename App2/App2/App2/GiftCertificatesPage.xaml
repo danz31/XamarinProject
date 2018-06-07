@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.GiftCertificatesPage"
+             Title="Gift Certificates">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Select a Package"></Label>
+            <Button Text="1 One Hour Massage" BackgroundColor="Crimson" Clicked="OneMassage_OnClicked"></Button>
+            <Button Text="2 One Hour Massages" BackgroundColor="Crimson" Clicked="TwoMassage_OnClicked"></Button>
+            <Button Text="1 Dula Session" BackgroundColor="Crimson" Clicked="OneDula_OnClicked"></Button>
+            <Button Text="2 Dula Sessions" BackgroundColor="Crimson" Clicked="TwoDula_OnClicked"></Button>
+            <Button Text="1 Personal Training Session" BackgroundColor="Crimson" Clicked="OneTrainin_OnClicked"></Button>
+            <Button Text="2 Personal Training Sessions" BackgroundColor="Crimson" Clicked="TwoTraining_OnClicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

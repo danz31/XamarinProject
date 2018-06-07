@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clrnamespace:GettingStarted" 
+             xmlns:syncfusion="clrnamespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms "
+             xmlns:xForms="clr-namespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms"
+             x:Class="App2.DulaCalendar">
+    <ContentPage.Content>
+        <xForms:SfCalendar x:Name="Calendar" ViewMode="MonthView" TransitionMode="Card" />
+    </ContentPage.Content>
+</ContentPage>
